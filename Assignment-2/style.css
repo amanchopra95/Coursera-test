@@ -4,6 +4,7 @@
 
 .row{
 	width: 100%;
+	position: relative;
 }
 
 h1{
@@ -14,7 +15,10 @@ h1{
 
 section{
 	position: relative;
-	right:0px;
+	right: 0px;
+	top: 5px;
+	text-align: right;
+	padding-right: 5px;
 
 }
 
@@ -23,6 +27,7 @@ p{
 	height: 150px;
 	margin-right:auto;
 	margin-left:auto;
+
 }
 
 @media (min-width: 992px) {
