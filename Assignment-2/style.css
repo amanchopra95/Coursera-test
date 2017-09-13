@@ -4,7 +4,7 @@
 
 .row{
 	width: 100%;
-	position: relative;
+	
 }
 
 h1{
@@ -14,20 +14,19 @@ h1{
 }
 
 section{
-	position: relative;
-	right: 0px;
-	top: 5px;
-	text-align: right;
-	padding-right: 5px;
+	float: right;
+	position: absolute;
+	right: 20px;
 
 }
 
 p{
 	background-color: red;
-	height: 150px;
 	margin-right:auto;
 	margin-left:auto;
-
+	padding: 20px;
+	position: relative;
+	top: 5px;
 }
 
 @media (min-width: 992px) {
